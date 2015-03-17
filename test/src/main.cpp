@@ -1,12 +1,14 @@
 #include <iostream>
 #include <plank/src/test.h>
-#include "subject.h"
+#include "interface.h"
 
 int main(int argc, const char * argv[])
 {
     using namespace om636;
 
-	run_observer_test<void>();
+	Elapsed e;
+
+	std::cout << e.seconds() << std::endl;
 	
 	return 0;
 }
