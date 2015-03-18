@@ -7,8 +7,8 @@ namespace om636
 {
 	struct Elapsed
 	{
-		Elapsed(const Elapsed &) = delete;
-		Elapsed & operator=(const Elapsed &) = delete;
+		Elapsed(const Elapsed &) = default;
+		Elapsed & operator=(const Elapsed &) = default;
 		
 		Elapsed();
 		double seconds();
