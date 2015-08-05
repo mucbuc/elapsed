@@ -1,14 +1,14 @@
-#include <iostream>
+#include <tuple>
+
 #include <plank/src/test.h>
-#include "interface.h"
+#include "context_test.h"
 
 int main(int argc, const char * argv[])
 {
+    using namespace std;
     using namespace om636;
 
-	Elapsed e;
+    run_context_test();
 
-	std::cout << e.seconds() << std::endl;
-	
 	return 0;
 }

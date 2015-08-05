@@ -1,11 +1,10 @@
 {
 	'includes':[
-		'lib/sense/def.gypi',
-		'plank/def/mac-targets.gypi',
-		'plank/def/cpp11.gypi'
-	],#includes
+		'lib/traverse/def/base.gypi',
+		'plank/def/mac-targets.gypi'
+	],#inclues
 	'target_defaults': {
-		'target_name': 'test', 
+		'target_name': 'test',
 		'type': 'executable',
 		'sources': [
 			'src/main.cpp',
