@@ -10,5 +10,7 @@ int main(int argc, const char * argv[])
 
 	std::cout << e.seconds() << std::endl;
 	
+	ASSERT( "dummy test" ); 
+
 	return 0;
 }
