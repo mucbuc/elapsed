@@ -1,6 +1,6 @@
 #include <iostream>
 #include <plank/src/test.h>
-#include "interface.h"
+#include <lib/elapsed/src/interface.h>
 
 int main(int argc, const char * argv[])
 {
