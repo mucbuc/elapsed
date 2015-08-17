@@ -2,7 +2,6 @@
 
 	'includes':[
 		'lib/sense/def.gypi',
-		'plank/def/mac-targets.gypi',
 		'plank/def/plank.gypi',
 	], #includes
 	'target_defaults': {
