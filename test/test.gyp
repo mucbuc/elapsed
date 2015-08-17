@@ -1,7 +1,7 @@
 {
 
 	'includes':[
-		'lib/sense/def.gypi',
+		'lib/elapsed/def.gypi',
 		'plank/def/plank.gypi',
 	], #includes
 	'target_defaults': {
