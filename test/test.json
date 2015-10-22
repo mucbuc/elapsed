@@ -1,0 +1,8 @@
+{
+	"import":[
+		"lib/elapsed/def.json"
+	],
+	"sources": [
+		"src/main.cpp"
+	]
+}
