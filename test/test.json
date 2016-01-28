@@ -1,5 +1,6 @@
 {
 	"import":[
+		"lib/asserter/def.json",
 		"lib/elapsed/def.json"
 	],
 	"sources": [
