@@ -1,16 +1,16 @@
 #include <iostream>
-#include <tmp/src/test.h>
 #include <lib/elapsed/src/interface.h>
+#include <tmp/src/test.h>
 
-int main(int argc, const char * argv[])
+int main(int argc, const char* argv[])
 {
     using namespace om636;
 
-	Elapsed e;
+    Elapsed e;
 
-	std::cout << e.seconds() << std::endl;
-	
-	ASSERT( "dummy test" ); 
+    std::cout << e.seconds() << std::endl;
 
-	return 0;
+    ASSERT("dummy test");
+
+    return 0;
 }
